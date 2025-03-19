@@ -14,15 +14,21 @@
 5. missing color
 6. missing texture
 7. color and texture lines in between each other
+
+
 **Texture line**
 
 1. texture path ending with png
 2. spaces/tabs after png
 3. spaces between identifier and texture path (should be invalid)
+
+
 **Color Line**
 
 1.  multiple delimeter within color line colors
 2. spaces and tabs after
+
+
 **2d map**
 
 1. **Missing 2D map** should exit without segfault and without memory leaks when used valgrind
