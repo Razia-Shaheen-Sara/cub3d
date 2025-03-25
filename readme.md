@@ -27,6 +27,7 @@
 2. spaces/tabs after png should be valid
 3. NO spaces between identifier and texture path (should be invalid)
 4. wrong name of texture path(should be invalid with no segfault exit)
+5. Double texture files for same direction - invalid
 
 
 **Color Line**
@@ -36,6 +37,7 @@
 3. Spaces and tabs in between color numbers should be valid
 4. All 255 or all 0 should make black / white
 5. No spaces and tabs between identifier and numbers should be invalid
+6. Double color line for same area - invalid
 
 
 **2d map**
