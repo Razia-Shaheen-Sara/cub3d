@@ -18,15 +18,16 @@
 
 **Texture line**
 
-1. texture path ending with png
-2. spaces/tabs after png
-3. spaces between identifier and texture path (should be invalid)
+1. texture path not ending with png
+2. spaces/tabs after png shuld be valid
+3. NO spaces between identifier and texture path (should be invalid)
+4. wrong name of texture path
 
 
 **Color Line**
 
-1.  multiple delimeter within color line colors
-2. spaces and tabs after
+1. multiple delimeter within color line colors should be invalid
+2. spaces and tabs after color line valid
 
 
 **2d map**
